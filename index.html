@@ -1,90 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<title>Моё портфолио</title>
 	<meta name="description" content="На этом сайтике немного обо мне">
-    <link rel="stylesheet" href="css/outlines.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
+
+
+    
+
 </head>
 
 <body>
-    <header>
-        <nav>
+    <div class="container">
+    <header class="main-header">
+        <div class="logo">
         <a><img src="img/main-logo.svg" alt="Лого сайта"></a>
-    <a href="#about">Обо мне</a>
-    <a href="#skills">Навыки</a>
-    <a href="#hobbie">Интересы</a>
-    <a href="#contact"> Контакты</a>
+        <button class="nav-btn nav-btn_close"><span class="lihid"> Закрыть меню</span></button>
+        </div>
+        <nav class="main-nav">
+    <a class="main-nav__item" href="#about">Обо мне</a>
+    <a class="main-nav__item" href="#skills">Навыки</a>
+    <a class="main-nav__item" href="#hobbie">Интересы</a>
+    <a class="main-nav__item" href="#contacts"> Контакты</a>
         </nav>
     </header>
 
         <main>
-    <section id="name">
+    <section class="name" id="name">
+        <div class="fio">
 <h1>Артем Госман</h1>
 <p>Погромист</p>
+</div>
 <img src="img/me.jpg" alt="Это я">
     </section>
-    <section id="about">
+    <section class="about" id="about">
 <h2>Пара слов обо мне</h2>
+<div class="text-wrapper">
 <p>Привет ✌</p>
 <p>В данный момент я учусь в магистратуре МФ МГТУ им. Н. Э. Баумана 
 по направлению «Информатика и вычисли­тельная техника».</p>
 <p>В прошлом году защитил диплом бакалавра на тему «Разработка очень сложного программного комплекса для супер-важной цели». Работа была высоко оценена комиссией.</p>
 <p>Перегорел в своей специальности и ушёл в коммерческую видеосъёмку, однако писать сайтики мне по душе, может, займусь как вторым видом дохода когда-нибудь</p>
-    </section>
+</div>
+</section>
 
-    <section id="skills">
+    <section class="skills" id="skills">
+        <div class="skills_header">
     <h2>Мои навыки</h2>
-    <div class="sort">
+    <div class="skills-button">
         <p>Сортировать</p>
         <button>по названию</button>
         <button>по уровню</button>
+        </div>
     </div>
-    <div class="progress">
-<dl>
-    <dt>html</dt>
-    <dd>
+    <div class="skills-list">
+<dl class="skill-item">
+    <dt class="skill-item_html">html</dt>
+    <dd class="skill-level">
         <div style="width: 70%;">70%</div>
     </dd>
 
-    <dt>css</dt>
-    <dd>
+    <dt class="skill-item_css">css</dt>
+    <dd class="skill-level">
         <div style="width: 70%;">70%</div>
     </dd>
 
-    <dt>pyhon</dt>
-    <dd>
+    <dt class="skill-item_python">pyhon</dt>
+    <dd class="skill-level">
         <div style="width: 1%;">1%</div>
     </dd>
 
-    <dt>c++</dt>
-    <dd>
+    <dt class="skill-item_cpp">c++</dt>
+    <dd class="skill-level">
         <div style="width: 15%;">15%</div>
     </dd>
 </dl>
     </div>
     </section>
 
-    <section id="hobbie">
+    <section class="hobbie" id="hobbie">
 <h2>Мои интересы</h2>
+<div class="text-wrapper">
 <p>Наибольший интерес для меня в данный момент представляет съёмка рекламы и музыкальных клипов</p>
 <p>Но помимо работы я также люблю отдыхать </p>
+</div>
 </section>
 
-<section id="contact">
+<section class="contacts" id="contacts">
 <h2>Мои контакты</h2>
-<a href="tel:+79017736359">+7(901)-773-63-59</a>
-<a href="mailto:gosman321@mail.ru">gosman321@mail.ru</a>
-<ul>
-    <li><a href="https://www.instagram.com/yt_tomahawk/" target="_blank">inst</a></li>
-    <li><a href="https://t.me/yt_tomahawk" target="_blank">tg</a></li>
-    <li><a href="https://vk.com/mr.cool_id" target="_blank">vk</a></li>
+<ul class="contact">
+<li class="contact-link-phone"><a class="cdec" href="tel:+79017736359">+7(901)-773-63-59</a></li>
+<li class="contact-link-mail"><a class="cdec" href="mailto:gosman321@mail.ru">gosman321@mail.ru</a></li>
+</ul>
+<ul class="social">
+    <li class="social-inst"><a href="https://www.instagram.com/yt_tomahawk/" target="_blank"><span class="lihid">inst</span></a></li>
+    <li class="social-tg"><a href="https://t.me/yt_tomahawk" target="_blank"><span class="lihid">tg</span></a></li>
+    <li class="social-vk"><a href="https://vk.com/mr.cool_id" target="_blank"><span class="lihid">vk</span></a></li>
 </ul>
 </section>
 </main>
-
-<footer>
+</div>
+<footer class="main-footer">
+    <div class="container">
     <p>© 2023 Артем Госман</p>
+    </div>
 </footer>
 </body>
 </html>
