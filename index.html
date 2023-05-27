@@ -1,13 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1">
+	<title>Моё портфолио</title>
+	<meta name="description" content="На этом сайтике немного обо мне">
     <link rel="stylesheet" href="css/outlines.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+        <a><img src="img/main-logo.svg" alt="Лого сайта"></a>
+    <a href="#about">Обо мне</a>
+    <a href="#skills">Навыки</a>
+    <a href="#hobbie">Интересы</a>
+    <a href="#contact"> Контакты</a>
+        </nav>
+    </header>
+
+        <main>
+    <section id="name">
+<h1>Артем Госман</h1>
+<p>Погромист</p>
+<img src="img/me.jpg" alt="Это я">
+    </section>
+    <section id="about">
+<h2>Пара слов обо мне</h2>
+<p>Привет ✌</p>
+<p>В данный момент я учусь в магистратуре МФ МГТУ им. Н. Э. Баумана 
+по направлению «Информатика и вычисли­тельная техника».</p>
+<p>В прошлом году защитил диплом бакалавра на тему «Разработка очень сложного программного комплекса для супер-важной цели». Работа была высоко оценена комиссией.</p>
+<p>Перегорел в своей специальности и ушёл в коммерческую видеосъёмку, однако писать сайтики мне по душе, может, займусь как вторым видом дохода когда-нибудь</p>
+    </section>
+
+    <section id="skills">
+    <h2>Мои навыки</h2>
+    <div class="sort">
+        <p>Сортировать</p>
+        <button>по названию</button>
+        <button>по уровню</button>
+    </div>
+    <div class="progress">
+<dl>
+    <dt>html</dt>
+    <dd>
+        <div style="width: 70%;">70%</div>
+    </dd>
+
+    <dt>css</dt>
+    <dd>
+        <div style="width: 70%;">70%</div>
+    </dd>
+
+    <dt>pyhon</dt>
+    <dd>
+        <div style="width: 1%;">1%</div>
+    </dd>
+
+    <dt>c++</dt>
+    <dd>
+        <div style="width: 15%;">15%</div>
+    </dd>
+</dl>
+    </div>
+    </section>
+
+    <section id="hobbie">
+<h2>Мои интересы</h2>
+<p>Наибольший интерес для меня в данный момент представляет съёмка рекламы и музыкальных клипов</p>
+<p>Но помимо работы я также люблю отдыхать </p>
+</section>
+
+<section id="contact">
+<h2>Мои контакты</h2>
+<a href="tel:+79017736359">+7(901)-773-63-59</a>
+<a href="mailto:gosman321@mail.ru">gosman321@mail.ru</a>
+<ul>
+    <li><a href="https://www.instagram.com/yt_tomahawk/" target="_blank">inst</a></li>
+    <li><a href="https://t.me/yt_tomahawk" target="_blank">tg</a></li>
+    <li><a href="https://vk.com/mr.cool_id" target="_blank">vk</a></li>
+</ul>
+</section>
+</main>
+
+<footer>
+    <p>© 2023 Артем Госман</p>
+</footer>
 </body>
 </html>
