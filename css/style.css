@@ -242,22 +242,22 @@ margin-bottom: 0;
 
 
 .skill-item_html {
-    background-image: url("/img/Icon/html.svg");
+    background-image: url("img/Icon/html.svg");
 }
 
 
 .skill-item_css {
-    background-image: url("/img/Icon/css.svg");
+    background-image: url("img/Icon/css.svg");
 }
 
 
 .skill-item_cpp {
-    background-image: url("/img/Icon/c++.svg");
+    background-image: url("img/Icon/c++.svg");
 }
 
 
 .skill-item_python {
-    background-image: url("/img/Icon/python.svg");
+    background-image: url("img/Icon/python.svg");
 }
 
 
@@ -301,15 +301,15 @@ margin-bottom: 0;
 }
 
 .social-inst{
-    background-image: url(/img/Social/instagram.svg);
+    background-image: url(img/Social/instagram.svg);
 }
 
 .social-vk{
-    background-image: url(/img/Social/vk.svg);
+    background-image: url(img/Social/vk.svg);
 }
 
 .social-tg{
-    background-image: url(/img/Social/telegram.svg);
+    background-image: url(img/Social/telegram.svg);
 }
 
 
