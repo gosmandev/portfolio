@@ -77,7 +77,7 @@ p:last-child{
 }
 
 .name{
-    margin-top: 140px;
+    margin-top: 120px;
     display:flex;
     gap: 70px;
     justify-content: space-between;
@@ -121,7 +121,7 @@ align-items: center;
 .main-nav{
 display: flex;
 align-items: center;
-padding: 0px;
+padding: 0;
 order: 1;
 }
 
@@ -162,6 +162,7 @@ button:hover{
     background: var(--cyan);
 border: 1px solid var(--cyan);
 border-radius: 8px;
+margin: 0;
 }
 
 
@@ -169,8 +170,8 @@ border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px;
-        gap: 40px;
+        padding: 0;
+        gap: 30px;
 }
 
 .skills_header{
@@ -180,7 +181,7 @@ border-radius: 8px;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0px;
+    padding: 0;
     gap: 40px;
 }
 
@@ -188,22 +189,20 @@ border-radius: 8px;
     display: flex;
 flex-direction: row;
 align-items: baseline;
-padding: 0px;
+padding: 0;
 gap: 20px;
+}
+
+.skills-button p{
+    margin: 0;
 }
 
 .skills_header h2{
     margin-bottom: 0;
 }
 
-.sort > *{
-    margin-left: 20px;
-}
-.sort p{
-margin-bottom: 0;
-}
 
-.skills-list {
+.skill-list {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -211,7 +210,7 @@ margin-bottom: 0;
 }
 
 
-.skills-list dt {
+.skill-list dt {
     margin-bottom: 6px;
     padding: 5px 0 5px 38px;
     background-position: left;
@@ -237,27 +236,41 @@ margin-bottom: 0;
 
 
 .skill-item {
+    margin: 0;
     text-transform: lowercase;
 }
 
 
 .skill-item_html {
-    background-image: url("/img/Icon/html.svg");
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Icon/html.svg");
 }
 
 
 .skill-item_css {
-    background-image: url("/img/Icon/css.svg");
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Icon/css.svg");
 }
 
 
 .skill-item_cpp {
-    background-image: url("/img/Icon/c++.svg");
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Icon/c++.svg");
 }
 
 
 .skill-item_python {
-    background-image: url("/img/Icon/python.svg");
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Icon/python.svg");
+}
+
+
+.hobbie h2{
+    margin-top: 100px;
 }
 
 
@@ -288,7 +301,7 @@ margin-bottom: 0;
     background-position:center;
     margin: 0 auto;
     padding: 20px;
-    margin-right: 40px;
+    margin-right: 15px;
     border: 2px solid var(--cyan);
     border-radius: 50%;
     cursor: pointer;
@@ -301,25 +314,38 @@ margin-bottom: 0;
 }
 
 .social-inst{
-    background-image: url(/img/Social/instagram.svg);
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/Social/instagram.svg");
 }
 
 .social-vk{
-    background-image: url(/img/Social/vk.svg);
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/Social/vk.svg");
 }
 
 .social-tg{
-    background-image: url(/img/Social/telegram.svg);
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/Social/telegram.svg");
 }
 
 
+.contacts h2{
+    margin-top: 140px;   
+}
 
 .contact {
-    margin: 0;
+    display: inline-flex;
+    margin: 0 auto;
     padding: 0;
     margin-bottom: 40px;
     list-style-type: none;
     text-decoration: none;
+    gap: 40px;
+    white-space: nowrap;
+
     
 
 }
@@ -347,17 +373,21 @@ margin-bottom: 0;
     background-position:left;
     margin: 0 auto;
     cursor: pointer;
-    margin-right: 40px;
+    margin-right: 160px;
 
 }
 
 
 .contact-link-phone{
-    background-image: url(/img/Contacts/phone.svg);
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Contacts/phone.svg");
 
 }
 
 .contact-link-mail{
-    background-image: url(/img/Contacts/email.svg);
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Contacts/email.svg");
 }
 
