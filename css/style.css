@@ -286,15 +286,15 @@ button:hover {
 }
 
 .social-inst {
-  background-image: url(img/Social/instagram.svg);
+  background-image: url(../img/Social/instagram.svg);
 }
 
 .social-vk {
-  background-image: url(img/Social/vk.svg);
+  background-image: url(../img/Social/vk.svg);
 }
 
 .social-tg {
-  background-image: url(img/Social/telegram.svg);
+  background-image: url(../img/Social/telegram.svg);
 }
 
 .contacts h2 {
@@ -337,9 +337,9 @@ button:hover {
 }
 
 .contact-link-phone {
-  background-image: url(img/Contacts/phone.svg);
+  background-image: url(../img/Contacts/phone.svg);
 }
 
 .contact-link-mail {
-  background-image: url(img/Contacts/email.svg);
+  background-image: url(../img/Contacts/email.svg);
 }
