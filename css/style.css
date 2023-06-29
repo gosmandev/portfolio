@@ -242,27 +242,40 @@ gap: 20px;
 
 
 .skill-item_html {
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Icon/html.svg");
+=======
+    background-image: url("img/Icon/html.svg");
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
 
 .skill-item_css {
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Icon/css.svg");
+=======
+    background-image: url("img/Icon/css.svg");
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
 
 .skill-item_cpp {
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Icon/c++.svg");
+=======
+    background-image: url("img/Icon/c++.svg");
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
 
 .skill-item_python {
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Icon/python.svg");
@@ -271,6 +284,9 @@ gap: 20px;
 
 .hobbie h2{
     margin-top: 100px;
+=======
+    background-image: url("img/Icon/python.svg");
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
 
@@ -314,6 +330,7 @@ gap: 20px;
 }
 
 .social-inst{
+<<<<<<< HEAD
     width: 50px;
     height: 50px;
     background-image: url("../img/Social/instagram.svg");
@@ -329,6 +346,17 @@ gap: 20px;
     width: 50px;
     height: 50px;
     background-image: url("../img/Social/telegram.svg");
+=======
+    background-image: url(img/Social/instagram.svg);
+}
+
+.social-vk{
+    background-image: url(img/Social/vk.svg);
+}
+
+.social-tg{
+    background-image: url(img/Social/telegram.svg);
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
 
@@ -379,15 +407,23 @@ gap: 20px;
 
 
 .contact-link-phone{
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Contacts/phone.svg");
+=======
+    background-image: url(img/Contacts/phone.svg);
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 
 }
 
 .contact-link-mail{
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
     background-image: url("../img/Contacts/email.svg");
+=======
+    background-image: url(img/Contacts/email.svg);
+>>>>>>> f79534113bd6918cdd5d4894524654002029243b
 }
 
