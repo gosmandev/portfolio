@@ -233,6 +233,7 @@ button:hover {
 }
 
 .skill-item_html {
+<<<<<<< HEAD
   background-image: url(../img/Icon/html.svg);
 }
 
@@ -246,6 +247,21 @@ button:hover {
 
 .skill-item_python {
   background-image: url(../img/Icon/python.svg);
+=======
+  background-image: url("../img/Icon/html.svg");
+}
+
+.skill-item_css {
+  background-image: url("../img/Icon/css.svg");
+}
+
+.skill-item_cpp {
+  background-image: url("../img/Icon/c++.svg");
+}
+
+.skill-item_python {
+  background-image: url("../img/Icon/python.svg");
+>>>>>>> 1428da10990d4b0732950f2bef38d96a2f6ff75a
 }
 
 .lihid {
@@ -285,24 +301,33 @@ button:hover {
 }
 
 .social-inst {
+<<<<<<< HEAD
   display: block;
 width: 50px;
 height: 50px;
+=======
+>>>>>>> 1428da10990d4b0732950f2bef38d96a2f6ff75a
   background-image: url(../img/Social/instagram.svg);
 }
 
 .social-vk {
+<<<<<<< HEAD
   display: block;
 width: 50px;
 height: 50px;
+=======
+>>>>>>> 1428da10990d4b0732950f2bef38d96a2f6ff75a
   background-image: url(../img/Social/vk.svg);
 }
 
 .social-tg {
+<<<<<<< HEAD
   display: block;
 width: 50px;
 height: 50px;
 
+=======
+>>>>>>> 1428da10990d4b0732950f2bef38d96a2f6ff75a
   background-image: url(../img/Social/telegram.svg);
 }
 
