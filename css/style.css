@@ -207,7 +207,7 @@ button:hover {
 
 .skill-list dt {
   margin-bottom: 6px;
-  padding: 5px 0 5px 38px;
+  padding: 5px 0 8px 38px;
   background-position: left;
   background-repeat: no-repeat;
   background-size: 30px;
@@ -233,19 +233,19 @@ button:hover {
 }
 
 .skill-item_html {
-  background-image: url("img/Icon/html.svg");
+  background-image: url(../img/Icon/html.svg);
 }
 
 .skill-item_css {
-  background-image: url("img/Icon/css.svg");
+  background-image: url(../img/Icon/css.svg);
 }
 
 .skill-item_cpp {
-  background-image: url("img/Icon/c++.svg");
+  background-image: url(../img/Icon/c++.svg);
 }
 
 .skill-item_python {
-  background-image: url("img/Icon/python.svg");
+  background-image: url(../img/Icon/python.svg);
 }
 
 .lihid {
@@ -273,7 +273,6 @@ button:hover {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
-  padding: 20px;
   margin-right: 15px;
   border: 2px solid var(--cyan);
   border-radius: 50%;
@@ -286,19 +285,29 @@ button:hover {
 }
 
 .social-inst {
-  background-image: url(img/Social/instagram.svg);
+  display: block;
+width: 50px;
+height: 50px;
+  background-image: url(../img/Social/instagram.svg);
 }
 
 .social-vk {
-  background-image: url(img/Social/vk.svg);
+  display: block;
+width: 50px;
+height: 50px;
+  background-image: url(../img/Social/vk.svg);
 }
 
 .social-tg {
-  background-image: url(img/Social/telegram.svg);
+  display: block;
+width: 50px;
+height: 50px;
+
+  background-image: url(../img/Social/telegram.svg);
 }
 
 .contacts h2 {
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 .contact {
@@ -329,17 +338,17 @@ button:hover {
 
 .contact li {
   display: inline-block;
+  background-size: 25px;
   background-repeat: no-repeat;
   background-position: left;
   margin: 0 auto;
   cursor: pointer;
-  margin-right: 160px;
 }
 
 .contact-link-phone {
-  background-image: url(img/Contacts/phone.svg);
+  background-image: url(../img/Contacts/phone.svg);
 }
 
 .contact-link-mail {
-  background-image: url(img/Contacts/email.svg);
+  background-image: url(../img/Contacts/email.svg);
 }

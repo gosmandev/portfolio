@@ -31,7 +31,7 @@
   }
 
   .main-header {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .about h2,
@@ -49,7 +49,7 @@
   }
 
   .contact {
-    gap: 10px;
+    gap: 40px;
   }
 }
 
@@ -101,13 +101,16 @@
     flex-direction: column;
   }
 
+  .main-header{
+    padding-top: 20px;
+  }
   .about h2,
   .skills h2 {
     margin-top: 60px;
   }
 
   .hobbie h2 {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .name {
     gap: 30px;
@@ -142,6 +145,8 @@
   }
 
   .nav-btn {
+    border: 0;
+    background: none;
     display: block;
     width: 30px;
     height: 30px;
